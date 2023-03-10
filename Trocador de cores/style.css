@@ -90,6 +90,10 @@ main {
 }
 
 @media (max-width: 517px) {
+  main {
+    height: 40vh;
+  }
+
   .nav-center h1 {
     font-size: 22px;
   }
@@ -177,4 +181,20 @@ footer {
 
 .creatorLinkedin {
   color: rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 600px) {
+  .divCreator {
+    flex-direction: column;
+    width: 93%;
+  }
+  .center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footerSpan {
+    margin: 10px 0;
+  }
 }
