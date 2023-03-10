@@ -5,7 +5,7 @@
 }
 
 .nav-center {
-  padding: 15px 20px;
+  padding: 15px 50px;
   flex-direction: row;
   display: flex;
   justify-content: space-between;
@@ -26,7 +26,8 @@ li {
 a {
   font-weight: bold;
   transition: 0.3s;
-  color: black;
+
+  color: rgba(0, 0, 0, 0.6);
   text-decoration: none;
 }
 
@@ -36,7 +37,7 @@ a:focus {
 }
 
 a:hover {
-  color: rgba(0, 0, 0, 0.6);
+  color: black;
 }
 
 main {
@@ -59,11 +60,16 @@ main {
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
 }
 
+.containerDescription {
+  color: rgba(0, 0, 0, 0.6);
+}
+
 .color {
   text-transform: uppercase;
 }
 
 .btn {
+  cursor: pointer;
   background-color: transparent;
   border: 2px solid black;
   padding: 10px 20px;
@@ -72,4 +78,39 @@ main {
 }
 
 .btn-hero {
+}
+
+@media (max-width: 517px) {
+  .nav-center h1 {
+    font-size: 25px;
+  }
+
+  .nav-center {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .container {
+    width: 80%;
+  }
+
+  .container h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 353px) {
+  .container {
+    width: 70%;
+  }
+
+  .container h2 {
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .containerDescription {
+    font-size: 14px;
+  }
 }
