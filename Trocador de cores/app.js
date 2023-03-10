@@ -12,7 +12,6 @@ const color = document.querySelector(".color");
 btn.addEventListener("click", () => {
   //get random number between 0 - 3 (index) colors[0-1-2-3...]
   const randomNumber = getRandomNumber();
-  console.log(randomNumber);
 
   document.body.style.backgroundColor = colors[randomNumber];
 
