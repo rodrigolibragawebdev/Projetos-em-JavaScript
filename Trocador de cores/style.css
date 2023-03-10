@@ -4,14 +4,20 @@
   font-family: "Nunito", sans-serif;
 }
 
+nav {
+  background-color: white;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+}
+
 .nav-center {
+  width: 1200px;
   padding: 15px 50px;
   flex-direction: row;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
-  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
 }
 
 .nav-links {
@@ -77,9 +83,15 @@ main {
   font-weight: bold;
 }
 
+@media (max-width: 1201px) {
+  .nav-center {
+    width: 95%px;
+  }
+}
+
 @media (max-width: 517px) {
   .nav-center h1 {
-    font-size: 25px;
+    font-size: 22px;
   }
 
   .nav-center {
