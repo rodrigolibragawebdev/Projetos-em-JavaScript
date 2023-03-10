@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<a target="_blank" href="https://projeto-trocador-de-cores.vercel.app">Acesse o Live Demo clicando aqui</a>
-=======
-
 <h1>Projeto Trocador de cores</h1>
 
 <p align="center">
@@ -36,7 +32,7 @@
 
 ## Deploy da Aplicação :dash:
 
-> Link do deploy da aplicação: <a href="https://projeto-trocador-de-cores.vercel.app">CLIQUE AQUI</a>(Vercel - simplificada)
+> Link do deploy da aplicação: <a href="https://projeto-trocador-de-cores.vercel.app">CLIQUE AQUI</a> (Vercel - simplificada)
 
 ## Pré-requisitos
 
@@ -68,7 +64,6 @@ git clone https://github.com/rodrigolibragawebdev/Projetos-em-JavaScript.git
 ```
 
 > LEMBRANDO QUE ESTE REPOSITÓRIO CONTÉM DIVERSOS PROJETOS EM JAVASCRIPT.
-> ...
 
 ## Comandos
 
@@ -80,9 +75,8 @@ Basta abrir em live view o seu projeto.
 
 Este projeto pode ser utilizado para incremento em outras aplicações, baseando-se na sua lógica de códigos e servindo de exemplo para criações próprias.
 
-## Linguagens, dependencias e libs utilizadas :books:
+## Linguagens, dependências e libs utilizadas :books:
 
 - [Javascript](#)
 - [HTML](#)
 - [CSS](#)
-  > > > > > > > 12a6953 (alteração completa do readme)
