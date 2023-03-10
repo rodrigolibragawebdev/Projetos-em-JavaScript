@@ -77,9 +77,6 @@ main {
   font-weight: bold;
 }
 
-.btn-hero {
-}
-
 @media (max-width: 517px) {
   .nav-center h1 {
     font-size: 25px;
