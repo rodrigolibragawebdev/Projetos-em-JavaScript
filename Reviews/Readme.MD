@@ -32,7 +32,7 @@
 
 ## Deploy da Aplicação :dash:
 
-> Link do deploy da aplicação: <a href="projeto-reviews.vercel.app">CLIQUE AQUI</a> (Vercel - simplificada)
+> Link do deploy da aplicação: <a href="https://projeto-reviews.vercel.app">CLIQUE AQUI</a> (Vercel - simplificada)
 
 ## Pré-requisitos
 
