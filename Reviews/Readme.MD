@@ -1,4 +1,4 @@
-<h1>Projeto Avaliações - Em JavaScript/h1>
+<h1>Projeto Avaliações - Em JavaScript</h1>
 
 <p align="center">
   
@@ -32,7 +32,7 @@
 
 ## Deploy da Aplicação :dash:
 
-> Link do deploy da aplicação: <a href="#">CLIQUE AQUI</a> (Vercel - simplificada)
+> Link do deploy da aplicação: <a href="projeto-reviews.vercel.app">CLIQUE AQUI</a> (Vercel - simplificada)
 
 ## Pré-requisitos
 
